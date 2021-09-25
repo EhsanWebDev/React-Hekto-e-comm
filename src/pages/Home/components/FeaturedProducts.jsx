@@ -7,7 +7,7 @@ const FeaturedProducts = () => {
         <div className="mt-28 max-w-5xl mx-auto">
             <HeadingText title="featured products" />
 
-            <div className="grid grid-cols-4 gap-6 mt-8">
+            <div className="grid grid-cols-1 max-w-xs mx-auto gap-6 mt-8 sm:grid-cols-2 md:max-w-lg lg:grid-cols-4 lg:max-w-full ">
                 {/* Product */}
                 <div className="rounded-lg shadow-lg">
                     <div className="bg-blue-50 h-3/4 flex items-center justify-center p-8">

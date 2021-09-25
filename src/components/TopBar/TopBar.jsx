@@ -7,8 +7,8 @@ const miniContainer = "flex items-center space-x-2"
 
 const TopBar = () => {
     return (
-        <div className="bg-purple-600 w-full py-3">
-            <div className="flex items-center justify-between mx-auto max-w-5xl">
+        <div className=" bg-hekto-purple w-full py-3">
+            <div className="flex flex-col space-y-4 items-center justify-between mx-auto max-w-5xl md:flex-row md:space-y-0 md:px-2 lg:px-0">
                 <div className="flex items-center space-x-8">
                     <div className={miniContainer}>
                         <MailIcon className={iconStyles} />
