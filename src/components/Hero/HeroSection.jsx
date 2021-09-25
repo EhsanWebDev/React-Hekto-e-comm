@@ -1,3 +1,4 @@
+import Button from "../Button/Button"
 
 
 const HeroSection = () => {
@@ -9,7 +10,7 @@ const HeroSection = () => {
                     <p className="font-bold font-jose text-4xl tracking-wider capitalize mb-6">New furniture collection trends in 2021</p>
                     <p className="font-lato text-sm font-light mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, cum.</p>
 
-                    <button className="bg-pink-600 text-white text-sm font-jose rounded px-6 py-2">Shop Now</button>
+                    <Button />
                 </div>
 
                 <div>
