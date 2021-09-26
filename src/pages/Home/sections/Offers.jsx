@@ -12,7 +12,8 @@ const Offers = () => {
         <div className="mt-24 max-w-5xl mx-auto">
             <HeadingText title="what we offer" />
 
-            <div className="mt-16 mb-32 grid grid-cols-4 gap-6">
+            <div className="mt-16 mb-32 max-w-xs mx-auto grid grid-cols-1 gap-6 md:grid-cols-2
+                             lg:grid-cols-4 md:max-w-lg lg:max-w-full">
                 <div className={cardStyles}>
                     <img src={freeDelivery} alt="" />
                     <p className={headingStyles}>free delivery</p>

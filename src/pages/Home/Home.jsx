@@ -4,7 +4,10 @@ import TopBar from "../../components/TopBar/TopBar"
 import FeaturedProducts from "./components/FeaturedProducts"
 import LatestProducts from "./components/LatestProducts"
 import DiscountSection from "./sections/DiscountSection"
+import LatestBlog from "./sections/LatestBlog"
+import LatestNews from "./sections/LatestNews"
 import Offers from "./sections/Offers"
+import TopCategories from "./sections/TopCategories"
 import Trending from "./sections/Trending"
 import Unique from "./sections/Unique"
 
@@ -21,6 +24,9 @@ const Home = () => {
             <Unique />
             <Trending />
             <DiscountSection />
+            <TopCategories />
+            <LatestNews />
+            <LatestBlog />
         </div>
     )
 }
