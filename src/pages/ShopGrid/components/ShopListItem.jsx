@@ -20,7 +20,7 @@ const ShopListItem = () => {
                     <p className="font-lato text-hekto-pink text-sm  line-through">$26.00</p>
                 </div>
 
-                <p className="text-gray-500 text-sm my-2">
+                <p className="text-gray-500 text-xs my-2 md:text-sm">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, in delectus? Ratione laborum rem amet ad officiis iste quasi nam.
                 </p>
 
