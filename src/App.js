@@ -1,4 +1,5 @@
 import './App.css';
+import Login from './pages/Auth/Login/Login';
 import Home from './pages/Home/Home';
 import ProductDetails from './pages/ProductDetails/ProductDetails';
 import ShopGrid from './pages/ShopGrid/ShopGrid';
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <Home /> */}
       {/* <ShopGrid /> */}
-      <ProductDetails />
+      {/* <ProductDetails /> */}
+      <Login />
 
     </div>
   );
