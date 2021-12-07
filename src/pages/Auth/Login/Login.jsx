@@ -18,8 +18,8 @@ const Login = () => {
                     <p className="text-sm text-gray-400 text-center font-lato">Please login using account detail bellow.</p>
 
                     <form action="" className="mt-4 space-y-3">
-                        <input type="email" className="border-2 border-gray-200 w-full p-2 text-sm rounded" placeholder="Email Address" />
-                        <input type="password" className="border-2 border-gray-200 w-full p-2 text-sm rounded" placeholder="Password" />
+                        <input type="email" className="border-2 border-gray-200 w-full p-2 text-sm rounded outline-none focus:border-opacity-0 focus:ring-2 focus:ring-hekto-purple" placeholder="Email Address" />
+                        <input type="password" className="border-2 border-gray-200 w-full p-2 text-sm rounded outline-none focus:border-opacity-0 focus:ring-2 focus:ring-hekto-purple" placeholder="Password" />
                         <p className="text-sm text-gray-400 capitalize font-lato">forgot your password?</p>
                         <Button title="Sign In" />
                         <p className="text-sm text-center text-gray-400 capitalize font-lato">Don’t have an Account? Create account</p>
